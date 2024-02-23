@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(139, 151, 242), rgb(33, 18, 191));
 }
 
 button {
@@ -34,4 +34,19 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+.superscript {
+  font-size: 0.8em;
+  vertical-align: super;
+  color: #000; /* Set the color to black */
 }
