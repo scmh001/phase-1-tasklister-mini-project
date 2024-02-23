@@ -11,12 +11,12 @@
   const taskInput = document.getElementById('new-task-description');
   const taskList = document.getElementById('tasks');
 
-  form.addEventListener('submit', function(event) {
-    event.preventDefault();
+  form.addEventListener('click', function(e) {
+    e.preventDefault();
     
     const taskText = taskInput.value;
     
-    if (taskText.trim() !== '') {
+    if (taskText) {
       const newTask = document.createElement('li');
       newTask.textContent = taskText;
       taskList.appendChild(newTask);
